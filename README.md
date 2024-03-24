@@ -1,8 +1,11 @@
-# Getting Started with Create React App
+# Project Name: Canva Editor:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Image of the Project:
+<img width="959" alt="image" src="https://github.com/CodyHarsh/canvas-editor/assets/71979122/84bce25d-8592-42e3-9256-92b2a1ae356e">
 
-## Available Scripts
+
+## Tech Stack Used:
+  React.js
 
 In the project directory, you can run:
 
