@@ -1,0 +1,52 @@
+.custom-bgcolor-container{
+    display: flex;
+    gap: 6px;
+    margin-left: 0px;
+}
+
+.custom-bgcolor-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background-color: #e6e9ee;
+}
+
+
+
+.custom-bgcolor-wrapper .custom-heading{
+    font-size: 1rem;
+    color: #8f97a8;
+}
+
+.showPicker-wrapper{
+    position: absolute;
+    top: 40px;
+    z-index: 10;
+}
+
+.custom-eyedropper{
+    width: 100%;
+    border: 1px solid black;
+    background-color: white;
+    height: 30px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    z-index: 20;
+    position: absolute;
+}
+
+.custom-shopicker{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+}

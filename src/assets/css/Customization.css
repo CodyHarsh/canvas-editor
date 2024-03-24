@@ -1,0 +1,169 @@
+/* MyComponentStyles.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw; /* Adjust based on media queries if needed */
+    align-items: center;
+  }
+
+  .iconContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: absolute;
+    top: 2.5rem; 
+    right: 1.4rem;
+    background-color: #e6e9ee;
+  }
+  
+  .icon {
+    cursor: pointer;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 1.25rem; /* Tailwind's text-lg */
+    font-weight: bold;
+    margin-top: 4.5rem; /* Tailwind's mt-16 */
+    margin-bottom: 0px;
+  }
+  
+  .subtitle {
+    text-align: center;
+    font-size: 0.875rem; /* Tailwind's text-sm */
+    margin-top: 0.3rem; /* Tailwind's mt-2 */
+    color: #8f97a8; /* Tailwind's text-gray-500 */
+    opacity: 0.7;
+  }
+  
+  .adImgContainer, .adContentContainer {
+    margin-top: 0.6rem; /* Tailwind's mt-14 */ /* Tailwind's ml-10 */
+    width: 600px;
+  }
+  
+  .editContentsDivider {
+    display: flex;
+    align-items: center;
+    margin-top: 1.25rem; /* Tailwind's mt-5 */
+    margin-bottom: 1.25rem; /* Tailwind's mb-5 */
+  }
+
+  .hr {
+    width: 250px;
+    border-top: 1px solid #E0E0E0; /* Tailwind's border-t border-gray-300 */
+  }
+  
+  .editContentsText {
+    margin: 0 1rem; /* Tailwind's mx-4 */
+    color: #9CA3AF; /* Tailwind's text-gray-400 */
+    font-size: 0.875rem; /* Tailwind's text-sm */
+  }
+
+
+  /* CTA */
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #8f97a8; /* slate-300 */
+  width: 83.333333%; /* 5/6 */
+  height: 3.5rem; /* h-14 */
+  border-radius: 0.5rem; /* rounded-lg */
+}
+
+::placeholder{
+  color: "#8f97a8";
+}
+
+
+.label {
+  margin: 0.25rem 0.75rem; /* mx-3 mt-1 mb-1 */
+  color: #64748b; /* text-slate-500 */
+  font-size: 0.75rem; /* text-xs */
+  font-weight: bold; /* font-bold */
+}
+
+.input {
+  margin: 0 0.75rem 0.25rem; /* mx-3 mb-1 */
+  outline: none; /* focus:outline-none */
+}
+
+
+.divider {
+   display: flex;
+   align-items: center;
+}
+
+.divider .line {
+   flex-grow: 1;
+   height: 0.5px;
+   background: #D1D5DB; /* gray-300 */
+}
+
+.divider .text {
+   margin: 0 20px; /* equivalent to mx-5 in Tailwind */
+   color: #F3F4F6; /* dark:text-white in Tailwind */
+}
+
+
+.textInputWithImage {
+  /* Text input styles */
+  padding-left: 30px; /* Adjust according to the width of your image */
+  background-image: url(../images/global_temp_landscape_temp_10_Mask_stroke.png); /* Replace with your image path */
+  background-repeat: no-repeat;
+  background-size: 20px; /* Adjust according to the size of your image */
+  background-position: 5px center; /* Adjust according to your design */
+}
+
+.container-cta{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #8f97a8;
+  width: 600px;
+  min-height: 2.5rem;
+  margin-top: 15px;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  padding: 2px;
+}
+
+.container-cta .label1 {
+  margin-left: 0.75rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: #8f97a8;
+}
+
+.container-cta .input-field {
+  margin-left: 0.75rem;
+  margin-bottom: 0.75;
+  outline: none;
+  border: none;
+  font-size: 0.7rem;
+}
+
+.container-cta .icon{
+  right: 10px;
+  bottom: 10px;
+}
+
+.download-now{
+  margin-top: 30px;
+  border-radius: 4px;
+  padding: 8px 10px;
+  color: white;
+  cursor: pointer;
+  background-color: rgb(83, 83, 237);
+}
+
+.download-now:hover{
+  filter: brightness(120%);
+  color: white;
+}

@@ -1,0 +1,98 @@
+
+
+
+.editor-wrapper{
+    width: 1080px; /* Full width */
+    height: 100vh; /* 30rem height */
+    display: flex; /* Display as flex */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    align-content: center;
+    background-color: #efefef; 
+    position: relative;
+    flex-direction: column;
+}
+
+.custom-canvas1{
+    width: 400px;
+    height: 480px;
+    background-color: rgb(105, 111, 113);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px 1px rgba(0, 0, 0, 0.4);
+}
+
+.custom-canvas2{
+    height: 210px;
+    background-color: beige;
+    width: 400px;
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+}
+
+.custom-canvas2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: none;
+}
+
+.custom-canvas3{
+    top: 60px;
+    background-color: rgb(228, 193, 193);
+    height: 200px;
+    width: 250px;
+    position: absolute;
+    border-radius: 10px;
+    z-index: 10;
+    overflow: hidden;
+    border: 1px solid white;
+}
+
+.custom-canvas3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.custom-metadata{
+    width: 93%;
+    padding: 1px;
+    position: absolute;
+    z-index: 2;
+    top: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+
+.custom-metadata p{
+    font-size: 16px;
+    color: white;
+    max-height: calc(2em * 2); 
+    overflow: hidden;
+
+}
+
+
+.custom-button{
+    margin-top: 10px;
+    border: 0px;
+    height: max-content;
+    width: max-content;
+    padding: 4px 10px;
+    background-color: white;
+    border-radius: 4px;
+    color: rgb(145, 22, 22);
+    font-weight: bold;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+

@@ -1,0 +1,54 @@
+
+.flex-container {
+    display: flex;
+    padding: 2px;
+    align-items: center;
+    height: 2.5rem; /* equivalent to h-14 in Tailwind */
+    width: 600px; /* equivalent to w-5/6 in Tailwind */
+    border: 1px dotted #8f97a8; /* equivalent to border-[1px] border-slate-300 in Tailwind */
+    border-radius: 0.5rem; /* equivalent to rounded-lg in Tailwind */
+  }
+  
+  .flex-container input[type="file"] {
+    display: none;
+   
+  }
+
+  
+  
+  .flex-container .faFileImport {
+    margin-left: 0.8rem; /* equivalent to m-2 in Tailwind */
+    margin-right: 0.4rem;
+    margin-top: 0.35rem;
+    cursor: pointer;
+  }
+  
+  .flex-container .label1 {
+    font-size: 0.875rem; /* equivalent to text-sm in Tailwind */
+    color: #8f97a8; /* equivalent to text-slate-500 in Tailwind */
+  }
+
+
+  
+  .flex-container .label2 {
+    display: flex;
+    align-items: center;
+    margin-left: 0.25rem; /* equivalent to ml-1 in Tailwind */
+    font-size: 0.875rem; /* equivalent to text-sm in Tailwind */
+    color: #4c51bf; /* equivalent to text-blue-700 in Tailwind */
+    font-weight: 600; /* equivalent to font-semibold in Tailwind */
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 0.25rem; /* equivalent to underline-offset-1 in Tailwind */
+  }
+  
+  .flex-container .label3 {
+    font-size: 0.75rem; /* equivalent to text-xs in Tailwind */
+    margin-left: 0.75rem; /* equivalent to ml-3 in Tailwind */
+    color: #718096; /* equivalent to text-slate-500 in Tailwind */
+    width: 10rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
