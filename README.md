@@ -1,11 +1,12 @@
 # Project Name: Canva Editor:
-
+## Live Link of The Project: https://canvas-editor-pearl.vercel.app/
 Image of the Project:
 <img width="959" alt="image" src="https://github.com/CodyHarsh/canvas-editor/assets/71979122/84bce25d-8592-42e3-9256-92b2a1ae356e">
 
 
 ## Tech Stack Used:
   React.js
+
 
 In the project directory, you can run:
 
