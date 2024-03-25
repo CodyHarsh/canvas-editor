@@ -26,7 +26,7 @@ export const Customization = ({handleImageUpload, editorData, handleCtaUpdate, h
           </div>
         </div>
         <div className="container-cta" >
-            <label className="label1">CTA</label>
+            <label className="label1">Ad Content</label>
             <input onChange={handleTitleUpdate} placeholder='1 & 2 BHK Luxury Apartments at just Rs.34.97 Lakhs' type="text" className="input-field" onchange="(e)=>ctaHandler(e)" />
         </div>
 
